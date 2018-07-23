@@ -1,4 +1,4 @@
-package com.appwithherokucommunity;
+package com.dayone.commune;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "AppWithHerokuCommunity";
+        return "COMMUNE";
     }
 }

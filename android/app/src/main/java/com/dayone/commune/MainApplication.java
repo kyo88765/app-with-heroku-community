@@ -1,4 +1,4 @@
-package com.appwithherokucommunity;
+package com.dayone.commune;
 
 import android.app.Application;
 
