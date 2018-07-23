@@ -1,39 +1,12 @@
 import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View, WebView } from 'react-native';
-
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
-  android:
-    'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
+import { Text, View } from 'react-native';
 
 export default class App extends Component {
   render() {
     return (
-      <WebView
-        source={{ uri: 'http://localhost:3000/view/signup' }}
-        style={{ marginTop: 20 }}
-      />
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{ fontSize: 40 }}>COMMUNE!</Text>
+      </View>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
