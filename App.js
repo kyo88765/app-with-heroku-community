@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { Text, View, WebView } from 'react-native';
 
 export default class App extends Component {
   render() {
     return (
-      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-        <Text style={{ fontSize: 40 }}>COMMUNE!</Text>
-      </View>
+      <WebView
+        source={{ uri: "http://35.200.99.144:3000/view/signin" }}
+        style={{ marginTop: 20 }}
+      />
     );
   }
 }
