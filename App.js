@@ -11,7 +11,7 @@ export default class App extends Component {
   render() {
     return (
       <WebView
-        source={{ uri: "http://35.200.99.144:3000/view/signin" }}
+        source={{ uri: "http://35.200.99.144:3000/view/signup" }}
         style={{ marginTop: 20 }}
       />
     );
