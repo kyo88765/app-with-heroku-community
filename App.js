@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
+import SplashScreen from 'react-native-splash-screen';
 import { Text, View, WebView } from 'react-native';
 
 export default class App extends Component {
+
+  componentDidMount() {
+    SplashScreen.hide();
+  }
+
   render() {
     return (
       <WebView
