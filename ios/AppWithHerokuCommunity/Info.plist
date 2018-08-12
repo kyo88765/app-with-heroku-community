@@ -37,6 +37,10 @@
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>"写真"へのアクセスを許可しますか？</string>
+	<key>NSCameraUsageDescription</key>
+	<string>"カメラ"へのアクセスを許可しますか？</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
