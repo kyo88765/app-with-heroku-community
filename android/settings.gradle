@@ -1,4 +1,6 @@
 rootProject.name = 'AppWithHerokuCommunity'
+include ':react-native-fcm'
+project(':react-native-fcm').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fcm/android')
 include ':react-native-webview-android-file-upload'
 project(':react-native-webview-android-file-upload').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webview-android-file-upload/android')
 include ':react-native-splash-screen'

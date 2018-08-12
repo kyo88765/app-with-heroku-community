@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "924805813069",
+    "firebase_url": "https://commune0510.firebaseio.com",
+    "project_id": "commune0510",
+    "storage_bucket": "commune0510.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924805813069:android:a725e0978f17d9f7",
+        "android_client_info": {
+          "package_name": "com.dayone.commune"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924805813069-rutb4ok18tvakc0pakmub5heium85ltf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dayone.commune",
+            "certificate_hash": "d04eab220ef471b9823511930acb62ddb1feacaf"
+          }
+        },
+        {
+          "client_id": "924805813069-r6208rf07km7vl7vthra2dqg8b10qbrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMGpEegrrKkTjraLIHqlnW9BOdXQmMly0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924805813069-r6208rf07km7vl7vthra2dqg8b10qbrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
