@@ -13,6 +13,7 @@ export default class App extends Component {
       <WebView
         source={{ uri: "http://35.200.99.144:3000/view/signup" }}
         style={{ marginTop: 20 }}
+        allowsInlineMediaPlayback={true}
       />
     );
   }
