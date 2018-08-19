@@ -35,10 +35,13 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* AppWithHerokuCommunityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AppWithHerokuCommunityTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		4D8278E3AC84DE9DF213D562 /* Pods_AppWithHerokuCommunity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2C9574907D57F9238B6942 /* Pods_AppWithHerokuCommunity.framework */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		9AB4432384CF4B59A3E05B5C /* libRCTWKWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D48A8043826841758A93B314 /* libRCTWKWebView.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		C296455F21290C0F00A25617 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C296455E21290C0F00A25617 /* GoogleService-Info.plist */; };
+		CB8F7CF5FA7F33BCC8971C5A /* Pods_AppWithHerokuCommunityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDC8E549B960D0351BE0B95 /* Pods_AppWithHerokuCommunityTests.framework */; };
 		E3F8DC4EA2F14E618B6953EA /* libSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D82274E76DCE46D1BFD3AB32 /* libSplashScreen.a */; };
 /* End PBXBuildFile section */
 
@@ -337,6 +340,41 @@
 			remoteGlobalIDString = 3D7682761D8E76B80014119E;
 			remoteInfo = SplashScreen;
 		};
+		C24C9CBF212937B40075C7EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C296452721290AB700A25617 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9710E0E8C87193A5A0D1B53C751211FF;
+			remoteInfo = nanopb;
+		};
+		C296452E21290AB700A25617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C296452721290AB700A25617 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8AEE441787B588BEA1B458EF30EA0F3;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		C296453021290AB700A25617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C296452721290AB700A25617 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4D52A619904E4C32AE6AD70675642840;
+			remoteInfo = "Pods-AppWithHerokuCommunity";
+		};
+		C296453221290AB700A25617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C296452721290AB700A25617 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 257BE3EC0949BA9465D00B911290649B;
+			remoteInfo = "Pods-AppWithHerokuCommunityTests";
+		};
+		C296453421290AB700A25617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C296452721290AB700A25617 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DF266E59A08B68B01108BAF685D8885F;
+			remoteInfo = Protobuf;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -349,6 +387,7 @@
 		00E356EE1AD99517003FC87E /* AppWithHerokuCommunityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppWithHerokuCommunityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AppWithHerokuCommunityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppWithHerokuCommunityTests.m; sourceTree = "<group>"; };
+		027CF06125B2079B86FEAD01 /* Pods-AppWithHerokuCommunity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppWithHerokuCommunity.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppWithHerokuCommunity/Pods-AppWithHerokuCommunity.release.xcconfig"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AppWithHerokuCommunity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWithHerokuCommunity.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -364,13 +403,21 @@
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		6439F12049564CC285F57F71 /* RCTWKWebView.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTWKWebView.xcodeproj; path = "../node_modules/react-native-wkwebview-reborn/ios/RCTWKWebView.xcodeproj"; sourceTree = "<group>"; };
+		69FE228E3B4B9D8C05CE07C7 /* Pods-AppWithHerokuCommunityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppWithHerokuCommunityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppWithHerokuCommunityTests/Pods-AppWithHerokuCommunityTests.release.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		7CDC8E549B960D0351BE0B95 /* Pods_AppWithHerokuCommunityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppWithHerokuCommunityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		874AABBEC83440CAA25CBA0F /* libRNFIRMessaging.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFIRMessaging.a; sourceTree = "<group>"; };
+		8C2C9574907D57F9238B6942 /* Pods_AppWithHerokuCommunity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppWithHerokuCommunity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE8C9FD81750FA289B52907 /* Pods-AppWithHerokuCommunity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppWithHerokuCommunity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppWithHerokuCommunity/Pods-AppWithHerokuCommunity.debug.xcconfig"; sourceTree = "<group>"; };
 		A442475EBA4D478A8E405988 /* SplashScreen.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = SplashScreen.xcodeproj; path = "../node_modules/react-native-splash-screen/ios/SplashScreen.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		C296452721290AB700A25617 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		C296455E21290C0F00A25617 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C2B9FA1C21201E0000AB79B6 /* AppWithHerokuCommunity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = AppWithHerokuCommunity.entitlements; path = AppWithHerokuCommunity/AppWithHerokuCommunity.entitlements; sourceTree = "<group>"; };
 		D48A8043826841758A93B314 /* libRCTWKWebView.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTWKWebView.a; sourceTree = "<group>"; };
 		D82274E76DCE46D1BFD3AB32 /* libSplashScreen.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libSplashScreen.a; sourceTree = "<group>"; };
+		F36DBE932EC1923F6EB5E809 /* Pods-AppWithHerokuCommunityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppWithHerokuCommunityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppWithHerokuCommunityTests/Pods-AppWithHerokuCommunityTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -379,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				CB8F7CF5FA7F33BCC8971C5A /* Pods_AppWithHerokuCommunityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +450,7 @@
 				E3F8DC4EA2F14E618B6953EA /* libSplashScreen.a in Frameworks */,
 				9AB4432384CF4B59A3E05B5C /* libRCTWKWebView.a in Frameworks */,
 				1B89AED1F27E4BA4950BAC2D /* libRNFIRMessaging.a in Frameworks */,
+				4D8278E3AC84DE9DF213D562 /* Pods_AppWithHerokuCommunity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +562,8 @@
 		13B07FAE1A68108700A75B9A /* AppWithHerokuCommunity */ = {
 			isa = PBXGroup;
 			children = (
+				C296455E21290C0F00A25617 /* GoogleService-Info.plist */,
+				C2B9FA1C21201E0000AB79B6 /* AppWithHerokuCommunity.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -550,6 +601,8 @@
 			isa = PBXGroup;
 			children = (
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				8C2C9574907D57F9238B6942 /* Pods_AppWithHerokuCommunity.framework */,
+				7CDC8E549B960D0351BE0B95 /* Pods_AppWithHerokuCommunityTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -575,6 +628,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				C296452721290AB700A25617 /* Pods.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -612,6 +666,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				C245B9582116DEEC0023EA70 /* Recovered References */,
+				93CBB91F5FF4C0B2AE5395B7 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -627,6 +682,17 @@
 				2D02E4901E0B4A5D006451C7 /* AppWithHerokuCommunity-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		93CBB91F5FF4C0B2AE5395B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AE8C9FD81750FA289B52907 /* Pods-AppWithHerokuCommunity.debug.xcconfig */,
+				027CF06125B2079B86FEAD01 /* Pods-AppWithHerokuCommunity.release.xcconfig */,
+				F36DBE932EC1923F6EB5E809 /* Pods-AppWithHerokuCommunityTests.debug.xcconfig */,
+				69FE228E3B4B9D8C05CE07C7 /* Pods-AppWithHerokuCommunityTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		ADBDB9201DFEBF0600ED6528 /* Products */ = {
@@ -672,6 +738,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C296452821290AB700A25617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C296452F21290AB700A25617 /* GoogleToolboxForMac.framework */,
+				C24C9CC0212937B40075C7EF /* nanopb.framework */,
+				C296453121290AB700A25617 /* Pods_AppWithHerokuCommunity.framework */,
+				C296453321290AB700A25617 /* Pods_AppWithHerokuCommunityTests.framework */,
+				C296453521290AB700A25617 /* Protobuf.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -679,6 +757,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AppWithHerokuCommunityTests" */;
 			buildPhases = (
+				378DEAF64D8F0EF8201ACAEE /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -697,10 +776,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AppWithHerokuCommunity" */;
 			buildPhases = (
+				785478B2710442DC83D69793 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				86FEA7574A3764FF07A2544F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -758,10 +839,20 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 8NZ78P43GL;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = 8NZ78P43GL;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -786,6 +877,10 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = C296452821290AB700A25617 /* Products */;
+					ProjectRef = C296452721290AB700A25617 /* Pods.xcodeproj */;
+				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
@@ -1138,6 +1233,41 @@
 			remoteRef = C245B9812116DEF10023EA70 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		C24C9CC0212937B40075C7EF /* nanopb.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = nanopb.framework;
+			remoteRef = C24C9CBF212937B40075C7EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C296452F21290AB700A25617 /* GoogleToolboxForMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoogleToolboxForMac.framework;
+			remoteRef = C296452E21290AB700A25617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C296453121290AB700A25617 /* Pods_AppWithHerokuCommunity.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_AppWithHerokuCommunity.framework;
+			remoteRef = C296453021290AB700A25617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C296453321290AB700A25617 /* Pods_AppWithHerokuCommunityTests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_AppWithHerokuCommunityTests.framework;
+			remoteRef = C296453221290AB700A25617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C296453521290AB700A25617 /* Protobuf.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Protobuf.framework;
+			remoteRef = C296453421290AB700A25617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1153,6 +1283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C296455F21290C0F00A25617 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1201,6 +1332,64 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		378DEAF64D8F0EF8201ACAEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppWithHerokuCommunityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		785478B2710442DC83D69793 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppWithHerokuCommunity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86FEA7574A3764FF07A2544F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AppWithHerokuCommunity/Pods-AppWithHerokuCommunity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppWithHerokuCommunity/Pods-AppWithHerokuCommunity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1257,8 +1446,10 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36DBE932EC1923F6EB5E809 /* Pods-AppWithHerokuCommunityTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8NZ78P43GL;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1289,9 +1480,11 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69FE228E3B4B9D8C05CE07C7 /* Pods-AppWithHerokuCommunityTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 8NZ78P43GL;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
@@ -1318,9 +1511,13 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AE8C9FD81750FA289B52907 /* Pods-AppWithHerokuCommunity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = AppWithHerokuCommunity/AppWithHerokuCommunity.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 8NZ78P43GL;
@@ -1339,15 +1536,21 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dayone.commune;
 				PRODUCT_NAME = AppWithHerokuCommunity;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027CF06125B2079B86FEAD01 /* Pods-AppWithHerokuCommunity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = AppWithHerokuCommunity/AppWithHerokuCommunity.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8NZ78P43GL;
 				HEADER_SEARCH_PATHS = (
@@ -1365,6 +1568,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dayone.commune;
 				PRODUCT_NAME = AppWithHerokuCommunity;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

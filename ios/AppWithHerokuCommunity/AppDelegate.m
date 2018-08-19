@@ -11,6 +11,7 @@
 #import <React/RCTRootView.h>
 
 #import "RNSplashScreen.h"
+#import "RNFIRMessaging.h"
 
 @implementation AppDelegate
 
@@ -30,10 +31,33 @@
   UIViewController *rootViewController = [UIViewController new];
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
+  
+  [FIRApp configure];
+  [[UNUserNotificationCenter currentNotificationCenter] setDelegate:self];
   [self.window makeKeyAndVisible];
-  return YES;
   [RNSplashScreen show];
   return YES;
+}
+
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler
+{
+  [RNFIRMessaging willPresentNotification:notification withCompletionHandler:completionHandler];
+}
+
+#if defined(__IPHONE_11_0)
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)(void))completionHandler
+{
+  [RNFIRMessaging didReceiveNotificationResponse:response withCompletionHandler:completionHandler];
+}
+#else
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void(^)())completionHandler
+{
+  [RNFIRMessaging didReceiveNotificationResponse:response withCompletionHandler:completionHandler];
+}
+#endif
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(nonnull NSDictionary *)userInfo fetchCompletionHandler:(nonnull void (^)(UIBackgroundFetchResult))completionHandler{
+  [RNFIRMessaging didReceiveRemoteNotification:userInfo fetchCompletionHandler:completionHandler];
 }
 
 @end
