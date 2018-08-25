@@ -40,7 +40,7 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		9AB4432384CF4B59A3E05B5C /* libRCTWKWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D48A8043826841758A93B314 /* libRCTWKWebView.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		C296455F21290C0F00A25617 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C296455E21290C0F00A25617 /* GoogleService-Info.plist */; };
+		C23D4CB3213110F8001CBF0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C23D4CB2213110F8001CBF0B /* GoogleService-Info.plist */; };
 		CB8F7CF5FA7F33BCC8971C5A /* Pods_AppWithHerokuCommunityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDC8E549B960D0351BE0B95 /* Pods_AppWithHerokuCommunityTests.framework */; };
 		E3F8DC4EA2F14E618B6953EA /* libSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D82274E76DCE46D1BFD3AB32 /* libSplashScreen.a */; };
 /* End PBXBuildFile section */
@@ -412,8 +412,8 @@
 		9AE8C9FD81750FA289B52907 /* Pods-AppWithHerokuCommunity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppWithHerokuCommunity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppWithHerokuCommunity/Pods-AppWithHerokuCommunity.debug.xcconfig"; sourceTree = "<group>"; };
 		A442475EBA4D478A8E405988 /* SplashScreen.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = SplashScreen.xcodeproj; path = "../node_modules/react-native-splash-screen/ios/SplashScreen.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		C23D4CB2213110F8001CBF0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C296452721290AB700A25617 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
-		C296455E21290C0F00A25617 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C2B9FA1C21201E0000AB79B6 /* AppWithHerokuCommunity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = AppWithHerokuCommunity.entitlements; path = AppWithHerokuCommunity/AppWithHerokuCommunity.entitlements; sourceTree = "<group>"; };
 		D48A8043826841758A93B314 /* libRCTWKWebView.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTWKWebView.a; sourceTree = "<group>"; };
 		D82274E76DCE46D1BFD3AB32 /* libSplashScreen.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libSplashScreen.a; sourceTree = "<group>"; };
@@ -562,7 +562,7 @@
 		13B07FAE1A68108700A75B9A /* AppWithHerokuCommunity */ = {
 			isa = PBXGroup;
 			children = (
-				C296455E21290C0F00A25617 /* GoogleService-Info.plist */,
+				C23D4CB2213110F8001CBF0B /* GoogleService-Info.plist */,
 				C2B9FA1C21201E0000AB79B6 /* AppWithHerokuCommunity.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -844,7 +844,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = 8NZ78P43GL;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -1283,7 +1283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				C296455F21290C0F00A25617 /* GoogleService-Info.plist in Resources */,
+				C23D4CB3213110F8001CBF0B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1516,8 +1516,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = AppWithHerokuCommunity/AppWithHerokuCommunity.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 恭平 河口 (C8P8B923M6)";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 8NZ78P43GL;
@@ -1536,8 +1536,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dayone.commune;
 				PRODUCT_NAME = AppWithHerokuCommunity;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "7a430bad-516a-4fa4-ae3e-9b723c092119";
+				PROVISIONING_PROFILE_SPECIFIER = kawa_development;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1549,8 +1549,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = AppWithHerokuCommunity/AppWithHerokuCommunity.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 恭平 河口 (C8P8B923M6)";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8NZ78P43GL;
 				HEADER_SEARCH_PATHS = (
@@ -1568,8 +1568,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dayone.commune;
 				PRODUCT_NAME = AppWithHerokuCommunity;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "7a430bad-516a-4fa4-ae3e-9b723c092119";
+				PROVISIONING_PROFILE_SPECIFIER = kawa_development;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

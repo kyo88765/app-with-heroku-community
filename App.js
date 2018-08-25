@@ -12,6 +12,7 @@ export default class App extends Component {
     FCM.getFCMToken().then(token => console.log(`[TOKEN] ${token}`));
     if (Platform.OS === "ios") {
       FCM.getAPNSToken().then(token => {
+        console.log("APNS TOKEN (getFCMToken)", token);
       });
     }
     this.notificationUnsubscribe = FCM.on('FCMNotificationReceived', (notif) => {
