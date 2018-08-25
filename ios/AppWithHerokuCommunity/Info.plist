@@ -36,11 +36,13 @@
 		</dict>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>"カメラ"へのアクセスを許可しますか？</string>
+	<string>カメラから撮影した写真を投稿できるようになります</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>写真を保存できるようになります</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>"写真"へのアクセスを許可しますか？</string>
+	<string>写真を投稿できるようになります</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
